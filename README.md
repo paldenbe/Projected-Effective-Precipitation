@@ -2,7 +2,9 @@
 This code generates the projected effective precipitation for a study area. Before running the code, you should create a data folder for your ArcPro project with your desired study area shapefile, the NEX precipitation data for the future years you want, and a county-level irrigation raster for your study area.
 
 The NEX data can be downloaded here: https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-dcp30
+
 The study area shapefile can be downloaded from Data.gov
+
 The county-level irrigation raster can be created through the following steps:
   1. Download this csv file: https://www.sciencebase.gov/catalog/item/get/5af3311be4b0da30c1b245d8
   2. Delete all columns except IR-WGWFr, IC-WGWFr, and IG-WGWFr
