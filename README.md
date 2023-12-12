@@ -22,4 +22,4 @@ The county-level irrigation raster can be created through the following steps:
   11. Calculate m of irrigation for each county by dividing m3_yr by the m2 of irrigated land (Area_Ag_OpenUrban) for each county
   12. Use Polygon to Raster to make raster of irrigation values
 
-The symbology section of the code is specific to Missouri. You may have to make your own .lyrx file, or just adjust the symbology after running the code. Your symbology should capture the high and low values.
+The symbology section of the code is optional. You can make your own .lyrx file and add it to your data folder, or just adjust the symbology after running the code. Your symbology should capture the high and low values.
